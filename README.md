@@ -201,8 +201,11 @@ public class findwordReducer extends Reducer<Text, Text, Text, Text> {
 **Log**
 
 ```
-hirwuser864@ip-172-31-45-217:~$ hadoop jar /home/hirwuser864/findwordtwitter/find_word_twitter.jar 
-	com.mop.findword.findwordDriver -libjars /hirw-workshop/mapreduce/facebook/json-simple-1.1.jar /user/hirwuser864/findwordtwitter_input/input/ /user/hirwuser864/findwordtwitter_output
+hirwuser864@ip-172-31-45-217:~$ hadoop jar 
+	/home/hirwuser864/findwordtwitter/find_word_twitter.jar 
+	com.mop.findword.findwordDriver 
+	-libjars /hirw-workshop/mapreduce/facebook/json-simple-1.1.jar 
+	/user/hirwuser864/findwordtwitter_input/input/ /user/hirwuser864/findwordtwitter_output
 18/06/17 16:02:01 INFO client.RMProxy: Connecting to ResourceManager at ip-172-31-45-216.ec2.internal/172.31.45.216:8032
 18/06/17 16:02:02 INFO input.FileInputFormat: Total input paths to process : 1000
 18/06/17 16:02:02 INFO mapreduce.JobSubmitter: number of splits:1000
