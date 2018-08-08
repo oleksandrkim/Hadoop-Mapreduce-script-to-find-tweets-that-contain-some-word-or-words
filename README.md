@@ -402,6 +402,8 @@ hirwuser864@ip-172-31-45-217:~$ hadoop jar /home/hirwuser864/findwordtwitter/fin
   
 ## Output
 
+**Shows files where specific word was contained**
+
 >Good    [, js_30, js_469, js_534, js_396, js_499, js_602, js_839, js_111, js_944, js_242]<br>  
 >US      [, js_77, js_770, js_195, js_459, js_186, js_886, js_194, js_463, js_260, js_196, js_609, js_477, js_257, js_856, js_536, js_487, js_636, js_18, js_660, js_261, js_180, js_838, js_381, js_625, js_481, js_758, js_552, js_986, js_429, js_351, js_33, js_735, js_634, js_437, js_865, js_410, js_955, js_593, js_654, js_895, js_259, js_271, js_303, js_775, js_725, js_643, js_664, js_355, js_741, js_710, js_947, js_697, js_241, js_540, js_522, js_430, js_876, js_904, js_435]<br>  
 >USA     [, js_895, js_381, js_838, js_593, js_955, js_634, js_33, js_437]<br>  
